@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../font/comforta.ttf");
+}
+
+@font-face {
+  font-family: "IMB Plex Mono";
+  src: url("../font/PlexMono.ttf");
+}
+
+.comfortaa {
+  font-family: "Comfortaa";
+}
+
+.bold {
+  font-size: 3.7rem;
+}
+
+.extra-light {
+  color: rgba(0, 0, 0, 0.747);
+}
+.navigasi {
+  height: 25px;
+  background-color: rgb(255, 160, 17);
+}
+
+marquee {
+  text-decoration: underline;
+}
+
+.Hero {
+  width: 100%;
+}
+
+.btn-login {
+  box-shadow: 10px 7px 0px 0px rgba(0, 0, 0, 0.911);
+}
+
+.btn-register {
+  box-shadow: 10px 7px 0px 0px rgba(0, 0, 0, 0.911);
+}
+
+.btn-login {
+  color: black;
+  background-color: rgba(36, 152, 206, 0.74);
+  border: 0.5px solid;
+}
+.btn-login:hover {
+  color: black;
+  background-color: rgba(36, 152, 206, 0.74);
+  border: 0.5px solid;
+}
+
+.btn-register {
+  color: black;
+  background-color: rgba(250, 177, 20, 0.623);
+  border: 0.5px solid;
+}
+
+.btn-register:hover {
+  color: black;
+  background-color: rgba(250, 177, 20, 0.623);
+  border: 0.5px solid;
+}
+
+.kartu {
+  box-shadow: 10px 13px 0px -3px rgba(0, 0, 0, 0.863);
+}
+
+.IBM {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.philipines {
+  margin-left: 25px;
+}
+
+.kartu-start {
+  margin-left: 445px;
+  padding: 5px;
+  background-color: pink;
+  font-family: "Comfortaa";
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.kartu-border {
+  border: 1px solid black;
+}
+
+.gambar-saweria-ready-top {
+  margin-left: 40px;
+}
+
+.btn-ready {
+  width: 250px;
+}
+
+.gambar-ayam {
+  margin-left: 80px;
+}
+
+.kartu-pricing {
+  margin-left: 480px;
+  padding: 5px;
+  background-color: rgb(172, 205, 255);
+  font-family: "Comfortaa";
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.gambar-uwuu {
+  margin-left: 500px;
+}
+
+.kartu-bottom {
+  background-color: rgb(252, 147, 147);
+}
+
+.buttonTutorial {
+  margin-right: 55px;
+  width: 250px;
+  box-shadow: 10px 13px 0px -3px rgba(0, 0, 0, 0.863);
+}
+.buttonTerms {
+  width: 200px;
+  box-shadow: 10px 13px 0px -3px rgba(0, 0, 0, 0.863);
+  color: black;
+}
+
+.buttonTerms:hover {
+  color: black;
+}
+
+.terms:hover {
+  text-decoration: underline;
+}
+.FAQ:hover {
+  text-decoration: underline;
+}
+.CHANGELOG:hover {
+  text-decoration: underline;
+}
