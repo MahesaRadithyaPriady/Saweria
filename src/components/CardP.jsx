@@ -1,7 +1,7 @@
 const CardP = () => {
   return (
     <div className="cardP d-flex flex-column justify-content-center align-items-center mt-5">
-      <div className="kartu card IBM w-50">
+      <div className="kartu card IBM" style={{ width: "90vh" }}>
         <div className="card-body">
           Saweria helps you to receive financial support from your fans with
           these payment methods:

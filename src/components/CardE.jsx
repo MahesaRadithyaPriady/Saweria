@@ -2,10 +2,10 @@ const CardEmpat = () => {
   return (
     <div className="d-flex flex-row justify-content-center align-items-center">
       <div
-        class="kartu-bottom kartu rounded card mt-5 bordered"
+        className="kartu-bottom kartu rounded card mt-5 bordered"
         style={{ width: "570px" }}
       >
-        <div class="card-body rounded">
+        <div className="card-body rounded">
           <div className="gambar-ayam-2 d-flex flex-row">
             <div className="">
               <img

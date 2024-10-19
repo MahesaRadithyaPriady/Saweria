@@ -76,7 +76,7 @@ marquee {
 }
 
 .kartu-start {
-  margin-left: 445px;
+  margin-left: 400px;
   padding: 5px;
   background-color: pink;
   font-family: "Comfortaa";
@@ -85,6 +85,18 @@ marquee {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+@media only screen and (max-width: 770px) {
+  .kartu-start {
+    margin-right: 80px;
+    width: 130px;
+  }
+
+  .kartu-pricing {
+    margin-right: 80px;
+    width: 70px;
+  }
 }
 
 .kartu-border {
@@ -104,7 +116,7 @@ marquee {
 }
 
 .kartu-pricing {
-  margin-left: 480px;
+  margin-left: 440px;
   padding: 5px;
   background-color: rgb(172, 205, 255);
   font-family: "Comfortaa";
@@ -146,4 +158,10 @@ marquee {
 }
 .CHANGELOG:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    display: none;
+  }
 }
