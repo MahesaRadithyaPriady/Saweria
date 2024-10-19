@@ -76,7 +76,7 @@ marquee {
 }
 
 .kartu-start {
-  margin-left: 400px;
+  margin-left: 460px;
   padding: 5px;
   background-color: pink;
   font-family: "Comfortaa";
@@ -116,7 +116,7 @@ marquee {
 }
 
 .kartu-pricing {
-  margin-left: 440px;
+  margin-left: 500px;
   padding: 5px;
   background-color: rgb(172, 205, 255);
   font-family: "Comfortaa";
@@ -163,5 +163,17 @@ marquee {
 @media only screen and (max-width: 500px) {
   .container {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1071px) {
+  .kartu-start {
+    margin-right: 95px;
+    width: 120px;
+  }
+
+  .kartu-pricing {
+    margin-right: 80px;
+    width: 70px;
   }
 }

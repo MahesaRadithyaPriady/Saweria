@@ -6,7 +6,6 @@ import CardWithHeader from "./fragments/CardWithHeader";
 import Header from "./fragments/Header";
 import HeroSectionPage from "./fragments/HeroSection";
 import CardPaymentMethodPage from "./fragments/CardPaymentMethod";
-import Navbar from "./components/Navbar";
 const CrudHome = () => {
   return (
     <>
